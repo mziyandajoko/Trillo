@@ -1,0 +1,35 @@
+:root {
+  --clr-Primary: #eb2f64;
+  --clr-Primary-light: #FF3366;
+  --clr-Primary-dark: #BA265D;
+  --clr-Grey-light-1: #faf9f9;
+  --clr-Grey-light-2: #f4f2f2;
+  --clr-Grey-light-3: #f0eeee;
+  --clr-Grey-light-4: #ccc;
+  --clr-Grey-dark-1: #333;
+  --clr-Grey-dark-2: #777;
+  --clr-Grey-dark-3: #999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "open sans", sans-serif;
+  background-image: linear-gradient(to right bottom, var(--clr-Primary-light), var(--clr-Primary-dark));
+}/*# sourceMappingURL=main.css.map */

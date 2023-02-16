@@ -2,6 +2,7 @@
   --clr-Primary: #eb2f64;
   --clr-Primary-light: #FF3366;
   --clr-Primary-dark: #BA265D;
+  --clr-white: #FFFFFF;
   --clr-Grey-light-1: #faf9f9;
   --clr-Grey-light-2: #f4f2f2;
   --clr-Grey-light-3: #f0eeee;
@@ -32,4 +33,48 @@ body {
   line-height: 1.6;
   font-family: "open sans", sans-serif;
   background-image: linear-gradient(to right bottom, var(--clr-Primary-light), var(--clr-Primary-dark));
+}
+
+.container {
+  width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--clr-Grey-light-1);
+}
+
+.header {
+  background-color: var(--clr-white);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--clr-Grey-dark-1);
+}
+
+.hotel__views {
+  background-color: var(--clr-white);
+}
+
+.container {
+  width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--clr-Grey-light-1);
+}
+
+.header {
+  background-color: var(--clr-white);
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--clr-Grey-dark-1);
+}
+
+.hotel__views {
+  background-color: var(--clr-white);
 }/*# sourceMappingURL=main.css.map */
